@@ -2,8 +2,8 @@
 //Tapuwa Dhliwayo
 //07/10/2019
 
-#include "/home/pi/TestingSensors/src/IMU/clogger.h"
-#include "/home/pi/TestingSensors/src/IMU/IMUSensor.h"
+#include "/home/pi/moos-ivp/mymoos/src/IMU/clogger.h"
+#include "/home/pi/moos-ivp/mymoos/src/IMU/IMUSensor.h"
 
 int main(){
 
