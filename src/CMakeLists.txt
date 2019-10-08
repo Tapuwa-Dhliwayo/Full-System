@@ -1,4 +1,4 @@
-set(PROJECTNAME SENSORS)
+set(PROJECTNAME FULLSYSTEM)
 
 project(${PROJECTNAME})
 
@@ -13,3 +13,6 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 add_subdirectory(GPS)
 add_subdirectory(IMU)
 add_subdirectory(FunctionTesting)
+add_subdirectory(PostApplication)
+add_subdirectory(ReceiveApplication)
+add_subdirectory(ArduinoTest)
