@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/testing.dir/arduino.cpp.o CMakeFiles/testing.dir/rs232.c.o  -o testing -rdynamic -lpthread 

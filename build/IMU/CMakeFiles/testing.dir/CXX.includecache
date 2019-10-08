@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/moos-ivp/mymoos/src/IMU/arduino.cpp
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+iostream
+-
+rs232.h
+/home/pi/moos-ivp/mymoos/src/IMU/rs232.h
+
+/home/pi/moos-ivp/mymoos/src/IMU/rs232.h
+stdio.h
+-
+string.h
+-
+termios.h
+-
+sys/ioctl.h
+-
+unistd.h
+-
+fcntl.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+limits.h
+-
+sys/file.h
+-
+errno.h
+-
+windows.h
+-
+

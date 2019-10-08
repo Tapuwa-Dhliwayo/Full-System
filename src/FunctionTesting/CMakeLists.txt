@@ -5,6 +5,7 @@ if(COMMAND cmake_policy)
 endif(COMMAND cmake_policy)
 
 find_package(pigpio REQUIRED)
+find_package(Threads)
 
 set(EXECNAME1 unitTests)
 set(EXECNAME2 funcTests)
@@ -16,8 +17,8 @@ include_directories( ${pigpio_INCLUDE_DIRS})
 
 add_executable(${EXECNAME1} ${SRCS1})
 
-target_link_libraries(${EXECNAME1} ${pigpio_LIBRARY})
+target_link_libraries(${EXECNAME1} ${pigpio_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} )
 
 add_executable(${EXECNAME2} ${SRCS2})
 
-target_link_libraries(${EXECNAME2} ${pigpio_LIBRARY})
+target_link_libraries(${EXECNAME2} ${pigpio_LIBRARY} ${CMAKE_THREAD_LIBS_INIT})

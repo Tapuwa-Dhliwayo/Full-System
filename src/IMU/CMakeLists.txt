@@ -5,6 +5,7 @@ if(COMMAND cmake_policy)
 endif(COMMAND cmake_policy)
 
 find_package(pigpio REQUIRED)
+find_package(Threads)
 
 set(EXECNAME IMUApp)
 
@@ -15,5 +16,5 @@ include_directories( ${pigpio_INCLUDE_DIRS})
 add_executable(${EXECNAME} ${SRCS})
 add_executable(testing arduino.cpp rs232.c)
 
-target_link_libraries(${EXECNAME} ${pigpio_LIBRARY})
+target_link_libraries(${EXECNAME} ${pigpio_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} )
 target_link_libraries(testing -lpthread)

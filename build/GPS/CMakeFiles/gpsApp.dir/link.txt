@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/gpsApp.dir/gpsApp.cpp.o  -o gpsApp -rdynamic -lpigpio -pthread 

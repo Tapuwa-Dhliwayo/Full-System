@@ -5,6 +5,8 @@ if(COMMAND cmake_policy)
 endif(COMMAND cmake_policy)
 
 find_package(pigpio REQUIRED)
+find_package(Threads)
+
 
 set(EXECNAME gpsApp)
 
@@ -14,4 +16,4 @@ include_directories( ${pigpio_INCLUDE_DIRS})
 
 add_executable(${EXECNAME} ${SRCS})
 
-target_link_libraries(${EXECNAME} ${pigpio_LIBRARY})
+target_link_libraries(${EXECNAME} ${pigpio_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} )

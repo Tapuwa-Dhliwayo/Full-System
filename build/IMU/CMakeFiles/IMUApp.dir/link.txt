@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/IMUApp.dir/IMUApp.cpp.o CMakeFiles/IMUApp.dir/IMUSensor.cpp.o CMakeFiles/IMUApp.dir/huff.cpp.o CMakeFiles/IMUApp.dir/clogger.cpp.o  -o IMUApp -rdynamic -lpigpio -pthread 

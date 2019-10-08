@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/RecApp.dir/RecApp.cpp.o  -o RecApp -rdynamic /usr/local/lib/libMOOS.a -pthread -lm 

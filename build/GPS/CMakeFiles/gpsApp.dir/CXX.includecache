@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/moos-ivp/mymoos/src/GPS/gpsApp.cpp
+stdio.h
+-
+unistd.h
+-
+iostream
+-
+cstring
+-
+pigpio.h
+-
+

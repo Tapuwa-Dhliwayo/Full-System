@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ard_test.dir/arduino_test.cpp.o CMakeFiles/ard_test.dir/rs232.c.o  -o ard_test -rdynamic /usr/local/lib/libMOOS.a -pthread -lm 
