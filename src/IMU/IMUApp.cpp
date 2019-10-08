@@ -11,10 +11,8 @@ int main(){
 	int acc = 2;
 	int gyro = 2000;
 	rawData_t accel_raw;
-	rawData_t mag_raw;
 	rawData_t gyro_raw;
 	sensorValue_t accel_values;
-	sensorValue_t mag_values;
 	sensorValue_t gyro_values;
 	/*
 	cout << "Enter Sensitivities:" << endl;
@@ -26,7 +24,7 @@ int main(){
 	gpioCfgSetInternals(1<<10);
 	gpioInitialise();
 
-	accel_function(acc,&accel_raw,&mag_raw,&accel_values,&mag_values);
+	accel_function(acc,&accel_raw,&accel_values);
 	gyro_function(gyro,&gyro_raw,&gyro_values);
 
 	gpioTerminate();

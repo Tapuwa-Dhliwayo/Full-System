@@ -84,7 +84,7 @@ GPS/preinstall:
 GPS/CMakeFiles/gpsApp.dir/all:
 	$(MAKE) -f GPS/CMakeFiles/gpsApp.dir/build.make GPS/CMakeFiles/gpsApp.dir/depend
 	$(MAKE) -f GPS/CMakeFiles/gpsApp.dir/build.make GPS/CMakeFiles/gpsApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=18,19 "Built target gpsApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=21,22 "Built target gpsApp"
 .PHONY : GPS/CMakeFiles/gpsApp.dir/all
 
 # Include target in all.
@@ -141,7 +141,7 @@ IMU/preinstall:
 IMU/CMakeFiles/testing.dir/all:
 	$(MAKE) -f IMU/CMakeFiles/testing.dir/build.make IMU/CMakeFiles/testing.dir/depend
 	$(MAKE) -f IMU/CMakeFiles/testing.dir/build.make IMU/CMakeFiles/testing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=20,21,22 "Built target testing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=23,24,25 "Built target testing"
 .PHONY : IMU/CMakeFiles/testing.dir/all
 
 # Include target in all.
@@ -235,7 +235,7 @@ FunctionTesting/preinstall:
 FunctionTesting/CMakeFiles/funcTests.dir/all:
 	$(MAKE) -f FunctionTesting/CMakeFiles/funcTests.dir/build.make FunctionTesting/CMakeFiles/funcTests.dir/depend
 	$(MAKE) -f FunctionTesting/CMakeFiles/funcTests.dir/build.make FunctionTesting/CMakeFiles/funcTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=13,14,15,16,17 "Built target funcTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=16,17,18,19,20 "Built target funcTests"
 .PHONY : FunctionTesting/CMakeFiles/funcTests.dir/all
 
 # Include target in all.
@@ -272,7 +272,7 @@ clean: FunctionTesting/CMakeFiles/funcTests.dir/clean
 FunctionTesting/CMakeFiles/unitTests.dir/all:
 	$(MAKE) -f FunctionTesting/CMakeFiles/unitTests.dir/build.make FunctionTesting/CMakeFiles/unitTests.dir/depend
 	$(MAKE) -f FunctionTesting/CMakeFiles/unitTests.dir/build.make FunctionTesting/CMakeFiles/unitTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=23,24,25 "Built target unitTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=26,27,28 "Built target unitTests"
 .PHONY : FunctionTesting/CMakeFiles/unitTests.dir/all
 
 # Include target in all.
@@ -327,7 +327,7 @@ PostApplication/preinstall:
 PostApplication/CMakeFiles/PostApp.dir/all:
 	$(MAKE) -f PostApplication/CMakeFiles/PostApp.dir/build.make PostApplication/CMakeFiles/PostApp.dir/depend
 	$(MAKE) -f PostApplication/CMakeFiles/PostApp.dir/build.make PostApplication/CMakeFiles/PostApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=6,7 "Built target PostApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=6,7,8,9,10 "Built target PostApp"
 .PHONY : PostApplication/CMakeFiles/PostApp.dir/all
 
 # Include target in all.
@@ -337,7 +337,7 @@ all: PostApplication/CMakeFiles/PostApp.dir/all
 
 # Build rule for subdir invocation for target.
 PostApplication/CMakeFiles/PostApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/moos-ivp/mymoos/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/moos-ivp/mymoos/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 PostApplication/CMakeFiles/PostApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/moos-ivp/mymoos/build/CMakeFiles 0
 .PHONY : PostApplication/CMakeFiles/PostApp.dir/rule
@@ -382,7 +382,7 @@ ReceiveApplication/preinstall:
 ReceiveApplication/CMakeFiles/RecApp.dir/all:
 	$(MAKE) -f ReceiveApplication/CMakeFiles/RecApp.dir/build.make ReceiveApplication/CMakeFiles/RecApp.dir/depend
 	$(MAKE) -f ReceiveApplication/CMakeFiles/RecApp.dir/build.make ReceiveApplication/CMakeFiles/RecApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=8,9 "Built target RecApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=11,12 "Built target RecApp"
 .PHONY : ReceiveApplication/CMakeFiles/RecApp.dir/all
 
 # Include target in all.
@@ -437,7 +437,7 @@ ArduinoTest/preinstall:
 ArduinoTest/CMakeFiles/ard_test.dir/all:
 	$(MAKE) -f ArduinoTest/CMakeFiles/ard_test.dir/build.make ArduinoTest/CMakeFiles/ard_test.dir/depend
 	$(MAKE) -f ArduinoTest/CMakeFiles/ard_test.dir/build.make ArduinoTest/CMakeFiles/ard_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=10,11,12 "Built target ard_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/moos-ivp/mymoos/build/CMakeFiles --progress-num=13,14,15 "Built target ard_test"
 .PHONY : ArduinoTest/CMakeFiles/ard_test.dir/all
 
 # Include target in all.

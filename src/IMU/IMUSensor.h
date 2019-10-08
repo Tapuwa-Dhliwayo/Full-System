@@ -105,7 +105,7 @@ typedef enum
 
 
 //Function declarations
-void accel_function(int sensitivity, rawData_t* data1, rawData_t* data2, sensorValue_t* processed1, sensorValue_t* processed2 );
+void accel_function(int sensitivity, rawData_t* data, sensorValue_t* processed);
 void gyro_function(int sensitivity, rawData_t* data, sensorValue_t* processed);
 
 #endif

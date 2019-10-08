@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void accel_function(int sensitivity,rawData_t* data1,rawData_t* data2,sensorValue_t* processed1,sensorValue_t* processed2){
+void accel_function(int sensitivity,rawData_t* data,sensorValue_t* processed){
 
 	char buffer[13];
 	uint8_t data_cfg = 0x00;
@@ -61,33 +61,18 @@ void accel_function(int sensitivity,rawData_t* data1,rawData_t* data2,sensorValu
 	float acc_x = (int16_t)((buffer[1] << 8) | buffer[2]) >> 2;
 	float acc_y = (int16_t)((buffer[3] << 8) | buffer[4]) >> 2;
 	float acc_z = (int16_t)((buffer[5] << 8) | buffer[6]) >> 2;
-	float mag_x = (int16_t)((buffer[7] << 8) | buffer[8]);
-	float mag_y = (int16_t)((buffer[9] << 8) | buffer[10]);
-	float mag_z = (int16_t)((buffer[11] << 8) | buffer[12]);
 
-	data1->x = acc_x;
-	data1->y = acc_y;
-	data1->z = acc_z;
-
-	data2->x = mag_x;
-	data2->y = mag_y;
-	data2->z = mag_z;
+	data->x = acc_x;
+	data->y = acc_y;
+	data->z = acc_z;
 
 	acc_x *= accel_mg_lsb * SENSORS_GRAVITY_STANDARD;
 	acc_y *= accel_mg_lsb * SENSORS_GRAVITY_STANDARD;
 	acc_z *= accel_mg_lsb * SENSORS_GRAVITY_STANDARD;
 
-	mag_x *= MAG_UT_LSB;
-	mag_y *= MAG_UT_LSB;
-	mag_z *= MAG_UT_LSB;
-
-	processed1->x = acc_x;
-	processed1->y = acc_y;
-	processed1->z = acc_z;
-
-	processed2->x = mag_x;
-	processed2->y = mag_y;
-	processed2->z = mag_z;
+	processed->x = acc_x;
+	processed->y = acc_y;
+	processed->z = acc_z;
 
 	temp = i2cClose(handle);
 
